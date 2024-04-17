@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>山貓茶事|最新消息</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/marquee.css">
+    <link rel="stylesheet" href="./css/floatbutton.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/cat.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/product_index.css">
+    <link rel="stylesheet" href="./css/news_index.css">
+    <link rel="stylesheet" href="./css/news.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+</head>
+
+<body>
+    <!-- 頂部欄 -->
+    <header>
+
+        <div class="container-fluid">
+            <div class="row align-items-center ">
+                <div class="col-2 ">
+                    <a href="index.html"><img src="./image/橫logo.png" alt="Logo" href="index.html" style="z-index: 2;"> </a>
+                </div>
+                <div class="col-10 text-end">
+                    <nav class="navbar navbar-expand">
+                        <div class="collapse navbar-collapse justify-content-end">
+                            <ul class="navbar-nav">
+                                <li class="nav-item"><a class="nav-link" href="index.html">首頁</a></li>
+                                <li class="nav-item"><a class="nav-link" href="news.html">最新消息</a></li>
+                                <li class="nav-item"><a class="nav-link" href="aboutus.html">關於我們</a></li>
+                                <li class="nav-item"><a class="nav-link" href="menu.html">菜單</a></li>
+                                <li class="nav-item"><a class="nav-link" href="store.html">門市資訊</a></li>
+                                <li class="nav-item"><a class="nav-link" href="joinus.html">加入我們</a></li>
+                                <li class="nav-item"><a class="nav-link" href="contactus.html">聯絡我們</a></li>
+                                <li class="nav-link"><a class="nav-link" href="https://reurl.cc/j3Xrrq"><img src="./image/FB.png"></a></li>
+                                <li class="nav-link"><a class="nav-link" href="https://reurl.cc/Qe1aao"><img src="./image/IG.png"></a></li>
+                                <li class="nav-link dropdown">
+                                    <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <img src="./image/menu.png">
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <li><a class="dropdown-item" href="index.html">首頁</a></li>
+                                        <li><a class="dropdown-item" href="news.html">最新消息</a></li>
+                                        <li><a class="dropdown-item" href="aboutus.html">關於我們</a></li>
+                                        <li><a class="dropdown-item" href="menu.html">菜單</a></li>
+                                        <li><a class="dropdown-item" href="store.html">門市資訊</a></li>
+                                        <li><a class="dropdown-item" href="joinus.html">加入我們</a></li>
+                                        <li><a class="dropdown-item" href="contactus.html">聯絡我們</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="news-title">
+            <h1>NEWS</h1>
+            <p>最新消息</p>
+
+        </div>
+        <!-- 新消息 -->
+        <div id="carouselExampleIndicators" class="carousel slide news-carousel carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true"
+                    aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner ">
+                <div class="carousel-item active ">
+                    <img data-aos="fade-up" src="./image/news1.jpg" class="d-block w-75 m-auto" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./image/news2.jpg" class="d-block w-75 m-auto" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./image/news3.png" class="d-block w-75 m-auto" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span aria-hidden="true"><img src="./image/上一頁.png"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span aria-hidden="true"><img src="./image/下一頁.png"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        </div>
+        <div class="new-contant pb-5 pt-5">
+            <div class="container text-light">
+                <a href="#" style="text-decoration: none"><div class="d-flex mb-2 text-light">
+                        <h4>2024.11.20　　</h4>
+                        <h2>夏日限定！品味清涼解渴的特調冰沙系列，讓你感受冰爽的暑假時光！</h2>
+                    </div>
+                </a>
+                <a href="#" style="text-decoration: none"><div class="d-flex mb-2 text-light">
+                        <h4>2024.09.22　　</h4>
+                        <h2>無與倫比的口感！濃郁奶香茶品，讓你嘗盡品味無窮的樂趣與魅力！</h2>
+                    </div>
+                </a>
+                <a href="#" style="text-decoration: none"><div class="d-flex mb-2 text-light">
+                        <h4>2024.06.04　　</h4>
+                        <h2>專屬會員尊享！獨家優惠等你來領，立即加入我們的大家庭，開啟尊爵體驗！</h2>
+                    </div>
+                </a>
+                <a href="#" style="text-decoration: none"><div class="d-flex mb-2 text-light">
+                        <h4>2024.06.02　　</h4>
+                        <h2>網路瘋傳！美味新口味上市，搶先嚐鮮，體驗最新飲品潮流！</h2>
+                    </div>
+                </a>
+                <a href="#" style="text-decoration: none"><div class="d-flex mb-2 text-light">
+                        <h4>2024.05.10　　</h4>
+                        <h2>喝出健康！新鮮果汁系列，每一口都是對身體的呵護與愛！</h2>
+                    </div>
+                </a>
+                <a href="#" style="text-decoration: none"><div class="d-flex mb-2 text-light">
+                        <h4>2024.04.04　　</h4>
+                        <h2>夏日限定！品味清涼解渴的特調冰沙系列，讓你感受冰爽的暑假時光！限時優惠！驚喜折扣等你來拿，快來店裡享受無比的購物樂趣！</h2>
+                    </div>
+                </a>
+                <a href="#" style="text-decoration: none"><div class="d-flex mb-2 text-light">
+                        <h4>2024.03.30　　</h4>
+                        <h2>夏日狂歡！涼爽飲品任選，讓你在炎炎夏日中感受一絲涼意！</h2>
+                    </div>
+                </a>
+                <a href="#" style="text-decoration: none"><div class="d-flex mb-2 text-light">
+                        <h4>2024.02.28　　</h4>
+                        <h2>慶祝盛會！店慶活動精彩紛呈，豐富禮品等你拿，一起共襄盛舉！</h2>
+                    </div>
+                </a>
+                <a href="#" style="text-decoration: none"><div class="d-flex mb-2 text-light">
+                        <h4>2024.01.19　　</h4>
+                        <h2>創新驚喜！限定特色飲品推出，給你不一樣的口味驚艷體驗！</h2>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <!-- 浮動按鈕 -->
+        <button class="floating-button"><span><a href="menu.html"><img class="button-img" src="./image/點餐鈕.png"></span></button></a>
+        <!-- 底部欄 -->
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h3><a href="index.html"><img src="./image/橫logo.png" alt="Logo" style="height:50px;"> </a></h3>
+                        <p>徜徉於自然美味，尋找你的野性，只在山貓茶事</p>
+                    </div>
+                    <div class="col-md-6">
+                        <ul class="footer-links">
+                            <li><a href="news.html">最新消息</a></li>
+                            <li><a href="aboutus.html">關於我們</a></li>
+                            <li><a href="store.html">門市資訊</a></li>
+                            <li><a href="joinus.html">加入我們</a></li>
+                            <li><a href="menu.html">菜單</a></li>
+                            <li><a href="contactus.html">聯絡我們</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+            <hr>
+            <p>&copy; 2024 山貓茶事. All Rights Reserved.</p>
+        </footer>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        // Initialize AOS
+        AOS.init();
+
+        // Add event listener for scroll event
+        window.addEventListener('scroll', () => {
+            // Get the position of the bottom of the viewport
+            const bottomOfViewport = window.scrollY + window.innerHeight;
+
+            // Get all elements with the class "box"
+            const boxes = document.querySelectorAll('.box');
+
+            // Loop through each box
+            boxes.forEach(box => {
+                // Get the position of the bottom of the box relative to the viewport
+                const boxBottom = box.offsetTop + box.offsetHeight;
+
+                // If the bottom of the box is within the viewport
+                if (boxBottom < bottomOfViewport) {
+                    // Add the "visible" class to trigger the animation
+                    box.classList.add('visible');
+                }
+            });
+        });
+    </script>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
