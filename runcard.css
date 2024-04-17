@@ -1,0 +1,87 @@
+        html,
+        body {
+            box-sizing: content-box;
+            height: 100%;
+            margin: 0;
+        }
+
+        *,
+        *:before,
+        *:after {
+            box-sizing: inherit
+        }
+
+        #div-show {
+            width: 100%;
+            height: 70%;
+            background-color: black;
+            text-align: center;
+        }
+
+        #div-show img {
+            height: 100%;
+        }
+
+        #div-cont {
+            position: relative;
+            width: 100%;
+            height: 30%;
+            overflow: hidden;
+        }
+
+        #btnPrev {
+            width: 30px;
+            height: 30px;
+            background-image: url("./image/上一頁.png");
+            background-size: cover;
+            position: absolute;
+            top: 40%;
+            left: 5px;
+        }
+
+        #btnNext {
+            width: 30px;
+            height: 30px;
+            background-image: url("./image/下一頁.png");
+            background-size: cover;
+            position: absolute;
+            top: 40%;
+            right: 5px;
+        }
+
+        #div-select {
+            height: 100%;
+            width: 1000%;
+            position: absolute;
+            background-color: black;
+            left: 0%;
+            transition: 1.5s;
+        }
+
+        #div-select div {
+            display: flex;
+            height: 85%;
+            width: 240px;
+            float: left;
+            text-align:center;
+            align-items: center;
+            justify-content: center;
+            margin-left: 14px;
+            margin-top: 10px;
+        }
+
+        #div-select img {
+            width: 95%;
+            height: 95%;
+        }
+
+        .addBorder {
+            border-width: 3px;
+            border-color:transparent;
+            border-style: solid;
+        }
+
+        .showBorder {
+            border-color: blueviolet;
+        }
+      

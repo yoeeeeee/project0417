@@ -1,0 +1,42 @@
+/* Footer CSS */
+footer {
+    font-family: "Noto Serif TC", serif;
+    background-color: #025030;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    
+   
+    width: 100%;
+    height: 2.5rem;
+    
+    height: 28%;
+    width: 100%;
+
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.footer-links li {
+    display: inline-block;
+    margin-right: 20px;
+    width: 33.3%;
+}
+
+.footer-links li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-links li a:hover {
+  
+        color: rgb(177, 189, 6);
+        transform: scale(101%);
+        transition: 0.5s ease;
+     
+    
+}

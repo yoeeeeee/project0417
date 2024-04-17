@@ -1,0 +1,38 @@
+li{
+list-style: none;
+}
+.item-area{
+    width:250px;
+    padding:10px;
+}
+.item {
+    margin-top: 10px; /* 上邊距 */
+    margin-bottom: 10px; /* 下邊距 */
+}
+
+.join-text1{
+    color:transparent;
+    -webkit-text-stroke: 1px #fffffe62;
+    font-weight:bold;
+}
+.join-text2{
+    color:transparent;
+    -webkit-text-stroke: 1px #fffffe96;
+    margin-top:-35px;
+    font-weight:bold;
+    
+}
+.join-text3{
+    margin-top:-35px;
+    -webkit-text-stroke: 1px #fffffe96;
+    font-weight:bold;
+    
+}
+.join{
+    background-color:#4D994D;
+}
+.join-line{
+    background-color:#196942;
+    height:10px;
+    width:200px;
+}

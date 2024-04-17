@@ -1,0 +1,44 @@
+.aboutus-contact{
+    /* height:70vh; */
+    margin: 5vh;
+    display:flex;
+}
+.aboutus-img{
+    /* overflow: hidden; */
+    margin-right:30px;
+}
+
+.page-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* 让元素充满整个父容器的高度 */
+}
+.aboutus-top{
+    height:30%;
+    background-color: transparent;
+    padding-top:3%;
+}
+.aboutus-title{
+    text-align: center;
+    padding-top: 80px;
+    
+}
+.aboutus-title h1{
+    font-size:50px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-bottom: 0px;
+}
+.aboutus-title p{
+    font-size:30px;
+    color: #FFFFFF;
+}
+.aboutus-bottom{
+    height:70%;
+    padding-top:60px;
+}
+.aboutus-main{
+    background: linear-gradient(to bottom, #C8E4B2,#4D994D);
+    height:100%;
+}

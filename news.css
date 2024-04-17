@@ -1,0 +1,10 @@
+.news-carousel{
+    height:100vh;
+    overflow: hidden;
+    align-items: center;
+    display:flex;
+}
+.news-contant{
+    height:100%;
+    
+}

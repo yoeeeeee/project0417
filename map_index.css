@@ -1,0 +1,12 @@
+.map{
+    height:65vh;
+    
+    /* background-color:; */
+    background: linear-gradient(to bottom, rgb(89, 145, 89),rgb(33, 97, 33));
+    /* background: linear-gradient(to bottom,#C8E4B2, #4D994D ); */
+}
+.map-bottom{
+    margin-top:2%;
+    margin-bottom:2%;
+}
+

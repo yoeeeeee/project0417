@@ -1,0 +1,119 @@
+/* 跑馬燈 */
+.marquee-container {
+
+    color: gray;
+    padding-top: 5px;
+    width: auto;
+
+    height: auto;
+    z-index: -1;
+    overflow: hidden;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes marquee2 {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes marquee3 {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.myElement {
+    display: inline-block;
+    white-space: nowrap;
+    animation: marquee 60s linear infinite;
+   
+        /* font-family: "Zen Kurenaido", sans-serif;
+        font-weight: 400;
+        font-style: normal; */
+      
+      
+}
+
+.myElement2 {
+    display: inline-block;
+    white-space: nowrap;
+    animation: marquee 60s linear infinite;
+}
+
+.myElement3 {
+    display: inline-block;
+    white-space: nowrap;
+    animation: marquee 60s linear infinite;
+
+}
+
+ /* 山貓茶事SUANN NIAO */
+ .text1 {
+    white-space: nowrap;
+    
+    width: 1325px;
+    height: 188px;
+    margin: 0px;
+    
+    font-family: 'Noto Sans TC';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 130px;
+    line-height: 188px;
+
+    color: rgba(200, 228, 178, 0.5);
+    -webkit-text-stroke: 1.5px rgba(255, 255, 255, 0.5);
+
+}
+
+/* 山貓茶事SUANN NIAO */
+.text2 {
+    white-space: nowrap;
+    
+    width: 1325px;
+    height: 188px;
+    margin: 0px;
+    margin-top:-130px;
+    font-family: 'Noto Sans TC';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 130px;
+    line-height: 188px;
+    color: #C8E4B2;
+
+    -webkit-text-stroke: 1.5px #FFFFFF;
+
+}
+
+/* 山貓茶事SUANN NIAO */
+.text3 {
+    white-space: nowrap;
+    width: 1325px;
+    height: 188px;
+    margin: 0px;
+    margin-top:-130px;
+    font-family: 'Noto Sans TC';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 130px;
+    line-height: 188px;
+
+    color: white;
+
+
+}

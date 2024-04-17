@@ -1,0 +1,54 @@
+/* 區塊 */
+.product{
+    height:100vh;
+    display:flex;
+    /* background-color:; */
+    background: linear-gradient(to bottom, #4D994D,rgb(89, 145, 89));
+    /* background: linear-gradient(to bottom,#C8E4B2, #4D994D ); */
+}
+
+.product-left{
+    width:30%;
+}
+.product-mid{
+    width:20%;
+}
+.product-right{
+    width:50%;
+}
+
+.circle{
+    /* position: relative; */
+    border-radius: 50%;
+    width: 858px;
+    height: 858px;
+    margin-left:-300px;
+    margin-top: 60px;
+    background: linear-gradient(to right, rgba(82, 133, 34, 0.719),rgb(27, 65, 27));
+    z-index:1;
+    
+    }
+
+.greentea {
+    /* justify-content: center; */
+    /* position: relative; */
+    z-index:2;
+    margin-top:200px;
+    margin-left:-350px;
+}
+.product-text{
+    font-size:50px;
+    color: #FFFFFF;
+}
+.product-instruction p{
+    font-size:35px;
+    color: #FFFFFF;
+    
+    
+}
+.product-instruction{
+    margin-left:-20px;
+    font-family: "Noto Serif TC", serif;
+    position: relative;
+    top:40%;
+}
